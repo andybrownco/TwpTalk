@@ -1,0 +1,19 @@
+	<div class="pagination">
+	   <div class="left">
+		  {% if page.previous %}
+			<a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; {{ page.previous.title }}</a>
+		  {% else %}
+			<a>&larr; Previous</a>
+		  {% endif %}
+	   </div>
+	   <div class="right">
+		  {% if page.next %}
+			<a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &rarr;</a>
+		  {% else %}
+			<a>Next &rarr;</a>
+		  {% endif %}
+	  </div>
+	  <div class="clear"></div>
+	</div>
+		
+<div class="view-all"><a href="http://andy.cymru" title="See all blog posts">&lt;&lt; Go Back To All Posts</a></div>

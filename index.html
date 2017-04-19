@@ -1,0 +1,21 @@
+---
+layout: default
+ref: index
+---
+
+	<section>
+	{% assign posts=site.posts %}
+		<article>
+			<ul>
+			{% for post in posts %}
+			<li>
+				<h2><a href="{{ post.url | prepend: site.baseurl | post.permalink}}">{{ post.title }}</a></h2>
+				<date>Ysgrifenedig am: {{ post.date | date: "%d.%m.%Y" }}</date>
+				{% if post.thumb %}<image><a href="{{ post.url | prepend: site.baseurl | post.permalink}}" title="{{post.title}}"><img src="/style/img/{{post.thumb}}" title="{{post.title}}" alt="{{ post.thumb-alt }}"></a></image>{% endif %}
+				<content><p>{{ post.excerpt }}</p></content>
+				<div class="readmore"><a href="{{ post.url | prepend: site.baseurl | post.permalink}}">Darllen Parhau &rarr;</a></div>
+			</li>
+			{% endfor %}
+			</ul>
+		</article>
+	</section>

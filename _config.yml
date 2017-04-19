@@ -1,0 +1,8 @@
+name: TwpTalk
+author: Andy Brown
+description: 'Twp Talk'
+markdown: kramdown
+url: 'http://www.twptalk.xyz'
+baseurl: "http://www.twptalk.xyz"
+permalink: /:title/
+exclude: ['README.md', 'template.md']

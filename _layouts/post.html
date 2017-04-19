@@ -1,0 +1,22 @@
+---
+---
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}  	
+	
+	<section>
+		<article class="post-content">
+			<h2>{{page.title}}</h2>
+			<date>Ysgrifenedig am: {{ page.date | date: "%d.%m.%Y" }}</date>
+			<p>{{content}}</p>
+			<div class="readmore"><a href="{{ site.url }}" title="Go back to blog posts">&larr; Go Back</a></div>
+		</article>
+	</section>
+
+	{% include footer.html %}
+	
+</body>
+</html>

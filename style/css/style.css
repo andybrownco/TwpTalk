@@ -1,0 +1,109 @@
+* { margin:0; padding: 0; }
+
+body { margin:0 auto; }
+
+h2, h3, h3{ font-weight: normal; font-family: 'Archivo Black', sans-serif;}
+
+a:link, a:visited, a:hover, a:active { text-decoration:none; }
+
+p, p a{ font-weight:300; line-height: 1.4em; font-size:1.3em; font-family: 'Crimson Text', serif;}
+li, li a{ list-style: none; }
+img, img a { width:100%; height: auto; }
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+header { width: 100%; padding: 2.5% 0; color:#fff; text-align: center;
+background: #ff9000; background: -moz-linear-gradient(top,  #ff9000 0%, #ffa42d 100%); background: -webkit-linear-gradient(top,  #ff9000 0%,#ffa42d 100%); background: linear-gradient(to bottom,  #ff9000 0%,#ffa42d 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9000', endColorstr='#ffa42d',GradientType=0 );
+}
+
+header h1, header h1 a{ text-transform:none; font-size: 3.6em; margin: 0 auto; padding: 0; color: #fff; font-family: 'Allura', cursive; font-weight: normal; }
+header p, header p a{ color:#fff; font-weight:normal; margin: 0; padding: 0; font-size:1.1em;}
+header p a:hover{text-decoration: underline;}
+
+section { width:60%; margin:0 auto; padding:5% 0; }
+
+article { margin:0 auto 10% auto; }
+article:last-child { margin:0 auto }
+article h2, article h2 a{ display: block; margin:1% 0; color: #000; font-size:1.4em; font-family: 'Archivo Black', sans-serif; text-transform: uppercase;}
+article h2 a:hover{ color:#ffa42d; }
+
+article ul{  }
+article li{ margin:0 0 15% 0; }
+article li:last-child{ margin:0 0 5% 0; }
+
+article img, article img a{ border-radius: 7pt; }
+
+article date { display: inline-block; padding:0.5% 1.5%; border-radius: 3pt; background-color: #ffa42d; color: #fff; font-size: 0.7em; letter-spacing: 0.3pt; font-family: 'Libre Baskerville', serif; font-weight: normal; margin:0;}
+article content { display: block; margin:3% 0; text-align: justify; }
+article p { margin:2% 0; }
+
+.readmore a:link, .readmore a:visited { font-family: 'Libre Baskerville', serif; color:#ffa42d; letter-spacing: 0.7pt; font-size:1.1em; }
+.readmore a:hover, .readmore a:active { text-decoration: underline; color:#909090;}
+
+footer { width:100%; text-align: center; background-color:#a8a8a8; padding: 1% 0; font-size:1.2em; }
+footer p { color: #fff; font-size:1em; }
+footer p a{ color: #fff; text-decoration: underline; font-size:1em;}
+footer p a:hover{ color: #000; }
+footer svg, footer svg a:link{ fill:#fff; width: 5%; margin:0.5% 1.5%; font-weight:bold; }
+footer svg a:hover{ fill:#000; width:7%; margin:1% 2%; font-weight:bold; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 721px) {
+
+	p, p a{ font-weight:300; line-height: 1.4em; font-size:1.1em;}
+
+	header { width: 100%; padding: 6% 0; background-color: #ffad2d; color:#fff; text-align: center;}
+	header h1, header h1 a{ font-size: 2.6em; margin: 0 auto; padding: 0; color: #fff; }
+	header p, header p a{ color:#fff; font-weight:normal; text-transform: lowercase; margin: 0; padding: 0; font-size:0.9em;}
+	header p a:hover{text-decoration: underline;}
+
+	section { width:96%; margin:0 auto; padding:5% 0 10% 0; }
+
+	article { margin:0 auto 20% auto; }
+	article:last-child { margin:0 auto }
+	article h2, article h2 a{ display: block; margin:1.5% 0; color: #000; font-size:1.2em; }
+	article h2 a:hover{ color:#ffa42d; }
+
+	article date { display: inline-block; padding:1% 2.5%; border-radius: 3pt; background-color: #ffa42d; color: #fff; font-size: 0.8em; letter-spacing: 0.3pt; font-family: 'Open Sans', sans-serif; font-weight:300;}
+	article content { display: block; margin:4% 0; text-align: justify; }
+	article p { margin:6% 0; }
+
+	.readmore a:link, .readmore a:visited { font-family: 'Libre Baskerville', serif; color:#ffa42d; letter-spacing: 0.7pt; font-size:1.2em; font-weight: normal;}
+	.readmore a:hover, .readmore a:active { text-decoration: underline; color:#909090;}
+
+	footer { width:100%; text-align: center; background-color:#a8a8a8; padding: 4% 0; }
+	footer p { color: #fff; }
+	footer svg, footer svg a:link{ fill:#fff; width: 14%; margin:1% 2%; font-weight:bold; }
+	footer svg a:hover{ fill:#000; width: 7%; margin:1% 2%; font-weight:bold; }
+}
+
