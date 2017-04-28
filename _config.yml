@@ -2,7 +2,7 @@ name: TwpTalk
 author: Andy Brown
 description: 'Twp Talk'
 markdown: kramdown
-url: 'http://www.twptalk.xyz'
-baseurl: "http://www.twptalk.xyz"
+url: '/TwpTalk/'
+baseurl: /TwpTalk
 permalink: /:title/
 exclude: ['README.md', 'template.md']
