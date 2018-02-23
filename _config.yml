@@ -1,8 +1,13 @@
 name: TwpTalk
 author: Andy Brown
-description: 'Twp Talk'
+description: 'Twp Talk is a blog covering a wide variety of content and experiences, carefully crafted by designer Andy Brown.'
 markdown: kramdown
 url: '/TwpTalk/'
 baseurl: /TwpTalk
 permalink: /:title/
 exclude: ['README.md', 'template.md']
+
+email: andy@andy.cymru
+facebook: AndyBrownCo
+twitter: AndyBrownCo_
+instagram: AndyBrownCo
